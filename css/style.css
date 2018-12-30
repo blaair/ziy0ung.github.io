@@ -1,3 +1,9 @@
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
 html{
 	font-size: 22px;
 	color: #494e52;
@@ -20,13 +26,15 @@ header{
 
 .sidebar{
 	float: left;
+	width: 25%;
 	border: 1px solid red;
 	height: calc(100vh-2em-2em);
 }
 
 .archive{
+	width: 73%;
 	border: 1px solid;
-	float: left;
+	float: right;
 }
 
 .archive_subtitle{
