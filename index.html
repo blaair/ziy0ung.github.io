@@ -1,35 +1,61 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Jiyoung</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/onepage-scroll.css">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+	</script>
 </head>
 <body>
+  <div class="wrapper">
+	  <div class="main">
 
-	<header>
-		<div class="inner-wrap">
-			<span>안녕하세요</span>
-		</div>
-	</header>
+	  	<a class="name" href="">Hello, I'm Jiyoung.</a>
+	  	<a class="about" href="">About Me</a>
+	    
+      <section class="page1">
+        <div class="page_container">
+          <h1>One Page Scroll</h1>
+  
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+          <h1>Ready-to-use plugin</h1>
 
-	<main>
-		<div class="inner-wrap clearfix">
+	      </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+          <h1>Pretty Neat Eh?</h1>
 
-			<div class="sidebar">
-				<div class="author_content">
-					<h3 class="author_name">Jiyoung
-					</h3>
-					<p class="author_bio">1ma...</p>
-				</div>
-			</div>
-			
-			<div class="archive">
-				<h3 class="archive_subtitle">Recent Posts</h3>
-			</div>
+  	    </div>
+      </section>
 
-		</div>
-	</main>
+      <section class="page4">
+	      <div class="page_container">
+          <h1>Pretty Neat Eh?</h1>
+
+  	    </div>
+      </section>
+    </div>
+
+  </div>
 </body>
 </html>
