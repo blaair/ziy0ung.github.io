@@ -1,3 +1,5 @@
+
+/* common */
 * {
 	margin: 0;
 	padding: 0;
@@ -80,13 +82,33 @@ header nav ul li:first-child{
 
 main{
 	height: 100%;
-
-	border: 1px solid #000;
 }
 
-main .box-site-head.think-with-google{
+main .box-site-head{
+	/*position: relative;*/
 	height: 580px;
-	background: url("../images/thinkwithgoogle_header.jpg") no-repeat 100% 100%;
-	
-	border: 1px solid red;
+	padding: 0 70px;
+}
+
+main .box-site-head .box-content{
+	width: inherit;
+	height: 580px;
+	text-align: center;
+}
+
+main .box-site-head .box-content .title{
+	position: relative;
+  top: 200px;
+  font-size: 30px;
+  color: #fff;
+
+
+}
+
+
+/* think-with-google */
+main .box-site-head.think-with-google{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/thinkwithgoogle_header.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
 }
