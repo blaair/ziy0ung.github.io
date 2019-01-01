@@ -78,10 +78,15 @@ header nav ul li:first-child{
 	margin-right: 30px;
 }
 
-main #box-site-head{
+main{
+	height: 100%;
 
+	border: 1px solid #000;
 }
 
-main #box-site-head .think-with-google{
-
+main .box-site-head.think-with-google{
+	height: 580px;
+	background: url("../images/thinkwithgoogle_header.jpg") no-repeat 100% 100%;
+	
+	border: 1px solid red;
 }
