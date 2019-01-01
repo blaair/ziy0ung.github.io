@@ -5,7 +5,7 @@ body {
   background: #E2E4E7;
   padding: 0;
   text-align: center;
-  font-family: 'open sans';
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   margin: 0;
   height: 100%;
@@ -33,7 +33,6 @@ h1 {
   color: #000;
   margin-bottom: 5px;
   font-size: 70px;
-  letter-spacing: -4px;
   font-weight: 100;
 }
 h1 span {
@@ -222,12 +221,30 @@ header {
   position: relative;
   z-index: 10;
 }
+.main section .page_container:hover img{
+	transform: scale(1.03);
+	transition: transform .4s ease;
+}
 .main section .page_container {
   position: relative;
-  top: 25%;
+  top: 30%;
   margin: 0 auto 0;
   max-width: 950px;
   z-index: 3;
+}
+.main section .page_container img{
+	width: 920px;
+	height: 440px;
+  transition: transform .4s ease;
+}
+.main section .page_container .title{
+	position: absolute;
+	top: 120px;
+	left: -98px;
+	font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #AA2F1D;
 }
 .main section  {
   overflow: hidden;
@@ -242,7 +259,7 @@ header {
 .main section.page1 {
   background: #E5CCC6;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #EDE1E2, #E5CCC6);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #EDE1E2, #E5CCC6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to left, #F4F1F1, #E5CCC6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .main section.page1 h1 {
