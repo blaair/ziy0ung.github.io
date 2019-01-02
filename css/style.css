@@ -19,10 +19,33 @@ body {
 	overflow: hidden;
 }
 
+ul, ol, li {
+	list-style: none;
+}
+
 a {
   text-decoration: none;
 }
 
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
 
 h1, h2 {
   width: 100%;
@@ -53,6 +76,12 @@ h2 {
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
 }
 
 .pointer {
@@ -231,6 +260,14 @@ header {
   margin: 0 auto 0;
   max-width: 950px;
   z-index: 3;
+}
+.main section .page_container .category{
+	display: inline-block;
+
+}
+.main section .page_container .category li{
+	float: left;
+	margin-right: 15px;
 }
 .main section .page_container img{
 	width: 920px;

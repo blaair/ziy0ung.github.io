@@ -181,6 +181,10 @@ main .box-site-head .box-content .by strong{
   text-anchor: middle;
 }
 
+.lang{
+	color: #fff;
+}
+
 /* think-with-google */
 main .box-site-head.think-with-google{
 	background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("../images/thinkwithgoogle_header.jpg") no-repeat;
