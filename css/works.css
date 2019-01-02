@@ -1,4 +1,5 @@
 
+
 /* common */
 * {
 	margin: 0;
@@ -84,31 +85,105 @@ main{
 	height: 100%;
 }
 
+/* box-site-head */
 main .box-site-head{
 	/*position: relative;*/
-	height: 580px;
+	height: 500px;
 	padding: 0 70px;
 }
 
 main .box-site-head .box-content{
 	width: inherit;
-	height: 580px;
+	height: 600px;
 	text-align: center;
+	margin-top: 70px;
+	padding-top: 120px;
 }
 
 main .box-site-head .box-content .title{
-	position: relative;
-  top: 200px;
-  font-size: 30px;
+  font-size: 35px;
   color: #fff;
+  margin-bottom: 10px;
+}
 
+main .box-site-head .box-content .by{
+	display: block;
+	font-size: 17px;
+	color: #fff;
+	margin-bottom: 30px;
+}
 
+main .box-site-head .box-content .by strong{
+	color: #C76464;
 }
 
 
+
+/* percentage */
+.flex-wrapper {
+  display: inline-block;
+  flex-flow: row nowrap;
+  width: auto;
+}
+
+.single-chart {
+  width: 120px;
+  float: left;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  /*stroke: #eee;*/
+  stroke-width: 2;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.circular-chart.orange .circle-bg {
+  stroke: #ECDEC8;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage {
+  fill: #F0EDED;
+  font-family: sans-serif;
+  font-size: 6px;
+  text-anchor: middle;
+}
+
 /* think-with-google */
 main .box-site-head.think-with-google{
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/thinkwithgoogle_header.jpg") no-repeat;
+	background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("../images/thinkwithgoogle_header.jpg") no-repeat;
 	background-position: center;
 	background-size: cover;
 }
