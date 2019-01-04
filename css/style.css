@@ -146,9 +146,13 @@ a:hover {
 	border-left: 1px solid rgba(186, 186, 186, 1);
 }
 
-.main section.page2 .page_container{
+.main section.page2 .page_container h2.category{
+	font-family: 'Source Serif Pro', serif;
+	font-style: italic;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: #BABABA;
 }
-
 
 body.disabled-onepage-scroll .onepage-wrapper  section {
   min-height: 100%;
