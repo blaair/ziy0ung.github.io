@@ -98,6 +98,12 @@ a:hover {
 	margin-left: 20px;
 }
 
+.main section.page1 .page_container{
+	background: url('../images/main_bg.jpg');
+	background-position: 100% 50%;
+	background-size: cover;
+}
+
 
 /*.main section .page_container:hover img{
 	transform: scale(1.03);
@@ -127,68 +133,22 @@ a:hover {
   color: #AA2F1D;
 }*/
 
-.main section.page1 .page_container{
-	background: url('../images/main_bg.jpg');
-	background-position: 100% 50%;
-	background-size: cover;
+.main section .page_container{
 	height: 595px;
-
+	text-align: center;
 }
 
-.main section.page1 h2 {
-  color: rgba(0,0,0,0.85);
-  text-align: center;
-  width: 435px;
-  line-height: 160%;
-}
-.main section .page_container .btns {
-  clear: both;
-  float: left;
-  text-align: center;
-  width: 435px;
-}
-.main section .page_container .btns a{
-  text-align: center;
+.main section.page2 .page_container .line, .main section.page3 .page_container .line{
+	display: inline-block;
+	width: 5px;
+	height: 70px;
+	margin-left: -0.5px;
+	border-left: 1px solid rgba(186, 186, 186, 1);
 }
 
-/*.main section.page2 .page_container {
-  margin-top: 240px;
-  overflow: hidden;
-}*/
+.main section.page2 .page_container{
+}
 
-.main section.page2 h2 {
-  color: rgba(255,255,255,0.85);
-  text-align: center;
-  line-height: 160%;
-  font-weight: 100;
-}
-.viewing-page-2 .back{
-  background: rgba(0, 0, 0, 0.25);
-  color: #FFF;
-  }
-.main section.page3 {
-  background:url(tilted-phone.png) no-repeat 156px -150px ;
-}
-.main section.page3 .page_container {
-  overflow: hidden;
-  width: 500px;
-  right: -285px;
-}
-.main section.page3 h1 {
-  text-align: left;
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 70px;
-  letter-spacing: -1px;
-  color: black;
-}
-.main section.page3 h2 {
-  color: rgba(0,0,0,0.85);
-  text-align: left;
-  line-height: 160%;
-  font-weight: 100;
-  font-size: 21px;
-}
 
 body.disabled-onepage-scroll .onepage-wrapper  section {
   min-height: 100%;
