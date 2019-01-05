@@ -169,15 +169,120 @@ a:hover {
 }
 
 .main section.page3 .page_container .portfolio .portfolio_slider .slider_list{
-	border: 1px solid #000;
 	height: 400px;
 	width: 200px;
 	margin-right: 73px;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list.momentum{
-	background: url('../images/thinkwithgoogle_header.jpg');
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure{
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: #07090c;
 }
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure *{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.635s ease;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure img{
+	max-width: 100%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  backface-visibility: hidden;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure figcaption{
+	position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: scale(0.5) translate(0%, -50%);
+  transform: scale(0.5) translate(0%, -50%);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  z-index: 1;
+  opacity: 0;
+  padding: 0 30px;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure figcaption h3 {
+  margin: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure figcaption .read-more {
+  border: 2px solid #ffffff;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure figcaption .read-more:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure:hover img{
+  -webkit-animation: snip1436 0.45s linear forwards;
+  animation: snip1436 0.45s linear forwards;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure:hover figcaption{
+  -webkit-transform: scale(1) translate(0, -50%);
+  transform: scale(1) translate(0, -50%);
+  opacity: 1;
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+@-webkit-keyframes figure {
+  50% {
+    -webkit-transform: scale(0.8) translateX(0%);
+    transform: scale(0.8) translateX(0%);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateX(-150%);
+    transform: scale(0.8) translateX(-150%);
+    opacity: 0.5;
+  }
+}
+@keyframes figure {
+  50% {
+    -webkit-transform: scale(0.8) translateX(0%);
+    transform: scale(0.8) translateX(0%);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateX(-150%);
+    transform: scale(0.8) translateX(-150%);
+    opacity: 0.5;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 .main section.page3 .page_container .portfolio .bx-controls-direction a.bx-prev {
 	position: absolute;
