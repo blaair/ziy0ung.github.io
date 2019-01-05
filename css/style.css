@@ -146,14 +146,67 @@ a:hover {
 	border-left: 1px solid rgba(186, 186, 186, 1);
 }
 
-.main section.page2 .page_container h2.category{
+.main section.page2 .page_container h2.category, .main section.page3 .page_container h2.category{
 	font-family: 'Source Serif Pro', serif;
 	font-style: italic;
 	font-weight: 100;
 	font-size: 17px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	color: #BABABA;
 }
+
+.main section.page3 .page_container .portfolio{
+	height: 420px;
+	padding: 20px 55px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 48px;;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider{
+	height: inherit;
+	margin: 0;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list{
+	border: 1px solid #000;
+	height: 400px;
+	width: 200px;
+	margin-right: 73px;
+}
+
+.main section.page3 .page_container .portfolio .portfolio_slider .slider_list.momentum{
+	background: url('../images/thinkwithgoogle_header.jpg');
+}
+
+.main section.page3 .page_container .portfolio .bx-controls-direction a.bx-prev {
+	position: absolute;
+	left: 0;
+	top: 50%;;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background: url('../images/slider-nav-prev.svg') no-repeat 0 0;
+	text-indent: -9999px;
+	left: 0px;
+}
+
+.main section.page3 .page_container .bx-controls-direction a.bx-next {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	text-indent: -9999px;
+	background: url('../images/slider-nav-next.svg') no-repeat 0 0;
+}
+
+
+
+
+
+
 
 body.disabled-onepage-scroll .onepage-wrapper  section {
   min-height: 100%;
