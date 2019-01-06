@@ -126,6 +126,77 @@ a:hover {
 	color: #BABABA;
 }
 
+/* page2 - about */
+.main section.page2 .page_container{
+	position: relative;
+
+}
+
+.main section.page2 .page_container .profile{
+	position: absolute;
+	left: 0;
+	width: 400px;
+	margin-left: 60px;
+	/*-webkit-filter: grayscale(100%);
+	filter: gray;*/
+}
+
+.main section.page2 .page_container .info {
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	top: 182px;
+	right: 450px;
+}
+
+.main section.page2 .page_container .info div{
+	position: relative;
+	padding: 5px 0;
+}
+
+.main section.page2 .page_container .info img{
+}
+
+.main section.page2 .page_container .info span{
+	position: relative;
+	top: -8px;
+	left: 3px;
+}
+
+.main section.page2 .page_container .intro{
+	width: 500px;
+	height: 300px;
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	left: 100px;
+	top: 182px;;
+}
+
+.main section.page2 .page_container .intro h3{
+	font-family: 'Source Serif Pro', serif;
+	letter-spacing: 1px;
+}
+
+.main section.page2 .page_container .intro p{
+	margin-left: 20px;
+}
+
+
+.main section.page2 .page_container .skills{
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	top: 350px;
+	right: 450px;
+
+	border: 1px solid #000;
+}
+
+.main section.page2 .page_container .skills h3{
+	font-family: 'Source Serif Pro', serif;
+	letter-spacing: 1px;
+}
 
 /* page3 - project */
 .main section.page3 .page_container .project{
