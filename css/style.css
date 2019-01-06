@@ -104,41 +104,12 @@ a:hover {
 	background-size: cover;
 }
 
-
-/*.main section .page_container:hover img{
-	transform: scale(1.03);
-	transition: transform .4s ease;
-}
-
-.main section .page_container .category{
-	display: inline-block;
-
-}
-.main section .page_container .category li{
-	float: left;
-	margin-right: 38px;
-}
-.main section .page_container img{
-	width: 920px;
-	height: 440px;
-  transition: transform .4s ease;
-}
-.main section .page_container .title{
-	position: absolute;
-	top: 170px;
-	left: -98px;
-	font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  color: #AA2F1D;
-}*/
-
 .main section .page_container{
 	height: 595px;
 	text-align: center;
 }
 
-.main section.page2 .page_container .line, .main section.page3 .page_container .line{
+.main section.page2 .page_container .line, .main section.page3 .page_container .line, .main section.page4 .page_container .line{
 	display: inline-block;
 	width: 5px;
 	height: 70px;
@@ -146,7 +117,7 @@ a:hover {
 	border-left: 1px solid rgba(186, 186, 186, 1);
 }
 
-.main section.page2 .page_container h2.category, .main section.page3 .page_container h2.category{
+.main section.page2 .page_container h2.category, .main section.page3 .page_container h2.category, .main section.page4 .page_container h2.category{
 	font-family: 'Source Serif Pro', serif;
 	font-style: italic;
 	font-weight: 100;
@@ -155,7 +126,9 @@ a:hover {
 	color: #BABABA;
 }
 
-.main section.page3 .page_container .portfolio{
+
+/* page3 - project */
+.main section.page3 .page_container .project{
 	height: 420px;
 	padding: 20px 55px;
 	overflow: hidden;
@@ -163,18 +136,18 @@ a:hover {
 	margin-top: 48px;;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider{
+.main section.page3 .page_container .project .project_slider{
 	height: inherit;
 	margin: 0;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list{
+.main section.page3 .page_container .project .project_slider .slider_list{
 	height: 400px;
 	width: 200px;
 	margin-right: 73px;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure{
+.main section.page3 .page_container .project .project_slider .slider_list figure{
 	position: relative;
 	overflow: hidden;
 	margin: 0;
@@ -182,14 +155,14 @@ a:hover {
 	text-align: center;
 	opacity: 1;}
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure *{
+.main section.page3 .page_container .project .project_slider .slider_list figure *{
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-transition: all 0.35s ease;
 	transition: all 0.635s ease;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure img{
+.main section.page3 .page_container .project .project_slider .slider_list figure img{
   -webkit-transition-delay: 0.1S;
   transition-delay: 0.1s;
   backface-visibility: hidden;
@@ -197,7 +170,7 @@ a:hover {
   height: 100%;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure figcaption{
+.main section.page3 .page_container .project .project_slider .slider_list figure figcaption{
 	position: absolute;
   top: 200px;
   left: 0;
@@ -211,7 +184,7 @@ a:hover {
   opacity: 0;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure figcaption h3 {
+.main section.page3 .page_container .project .project_slider .slider_list figure figcaption h3 {
   margin: 0;
   padding-bottom: 15px;
   font-size: 22px;
@@ -219,7 +192,7 @@ a:hover {
   color: #4F4F4F;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure figcaption .read-more {
+.main section.page3 .page_container .project .project_slider .slider_list figure figcaption .read-more {
   border: 1px solid #333;
   padding: 3px;
   font-size: 16px;
@@ -228,19 +201,19 @@ a:hover {
   display: inline-block;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure figcaption .read-more:hover {
+.main section.page3 .page_container .project .project_slider .slider_list figure figcaption .read-more:hover {
   background-color: #4F4F4F;
   color: #fff;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure:hover img{
+.main section.page3 .page_container .project .project_slider .slider_list figure:hover img{
   -webkit-animation: figure 0.4s linear forwards;
   animation: figure 0.4s linear forwards;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
 
-.main section.page3 .page_container .portfolio .portfolio_slider .slider_list figure:hover figcaption{
+.main section.page3 .page_container .project .project_slider .slider_list figure:hover figcaption{
   -webkit-transform: scale(1) translate(0, -50%);
   transform: scale(1) translate(0, -50%);
   opacity: 1;
@@ -272,45 +245,33 @@ a:hover {
   }
 }
 
-
-
-
-
-
-
-
-
-
-.main section.page3 .page_container .portfolio .bx-controls-direction a.bx-prev {
+.main section.page3 .page_container .project .bx-controls-direction a.bx-prev {
 	position: absolute;
 	left: 0;
-	top: 50%;;
-	display: inline-block;
-	width: 42px;
-	height: 42px;
-	background: url('../images/slider-nav-prev.svg') no-repeat 0 0;
-	text-indent: -9999px;
+	top: 46%;
+	background: url('../images/slider-nav-prev.png') no-repeat;
+	background-size: 16px;
 	left: 0px;
+	text-indent: -9999px;
+	display: block;
+	height: 29px;
+	width: 17px;;
 }
 
 .main section.page3 .page_container .bx-controls-direction a.bx-next {
 	position: absolute;
 	right: 0;
-	top: 50%;
+	top: 46%;
 	display: inline-block;
-	width: 42px;
-	height: 42px;
+	width: 17px;
+	height: 29px;
 	text-indent: -9999px;
-	background: url('../images/slider-nav-next.svg') no-repeat 0 0;
+	background: url('../images/slider-nav-next.png') no-repeat 0 0;
+	background-size: 16px;
+
 }
 
-
-
-
-
-
-
-body.disabled-onepage-scroll .onepage-wrapper  section {
+/*body.disabled-onepage-scroll .onepage-wrapper  section {
   min-height: 100%;
   height: auto;
 }
@@ -357,10 +318,10 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   right: 0;
 }
 
-
-
-
-
 body, .onepage-wrapper, html {
 	height: 100%;
 }
+*/
+
+/* page4 - contact */
+
