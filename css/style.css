@@ -231,13 +231,11 @@ a:hover {
 	font-family: 'Source Serif Pro', serif;
 	color: #494949;
 	letter-spacing: 1px;
-
 }
 
 
 .main section.page2 .page_container .intro p {
 	margin-left: 20px;
-
 }
 
 
@@ -269,20 +267,25 @@ a:hover {
 }
 
 .main section.page2 .page_container .skills ul li{
-
 	margin-bottom: 8px;
 }
 
 .main section.page2 .page_container .skills ul li span.lang{
+	width: 122px;
 	float: left;
 }
 
 .main section.page2 .page_container .skills ul li span.circle{
-	float: left;
-  width: 20px;                              
-  height: 20px;                            
-  background: #15c;                           
+  width: 12px;                              
+  height: 12px;                            
+  background: #d0926ed1;                    
   border-radius: 50%;        
+  margin-right: 2px;
+  float: left;
+}
+
+.main section.page2 .page_container .skills ul li span.light{  
+  background: #f1dfcaad;                           
 }
 
 .main section.page3 .page_container .project {
@@ -632,20 +635,20 @@ a:hover {
 
 	bottom: 0;
 	width: 300px;
-	height: 250px;
+	height: auto;
 }
 
 .main section.page2 .page_container .skills h3{
 	font-family: 'Source Serif Pro', serif;
 	letter-spacing: 1px;
 	color: #494949;
-
 }
 
 .main section.page2 .page_container .skills ul{
 	margin: 0;
 	margin-left: 20px;
 }
+
 /* page3 - project */
 .main section.page3 .page_container .project{
 	height: 420px;
