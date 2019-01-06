@@ -3,6 +3,430 @@ html {
 	padding: 0;
   height: 100%;
 }
+
+
+body {
+	padding: 0;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	position: relative;
+	margin: 0;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	color: #3B3A3A;
+
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	height: 100% !important;
+	padding: 0 70px;
+
+}
+
+
+ul, ol, li {
+	list-style: none;
+
+}
+
+
+a {
+	text-decoration: none;
+
+}
+
+
+a:link {
+	text-decoration: none;
+	color: inherit;
+
+}
+
+
+a:visited {
+	color: inherit;
+	text-decoration: none;
+
+}
+
+
+a:active {
+	text-decoration: none;
+	color: inherit;
+
+}
+
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+
+}
+
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+
+}
+
+
+.main {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+
+.main header {
+	height: 80px;
+	line-height: 80px;
+
+}
+
+
+.main header .name {
+	display: inline-block;
+	margin: 0;
+	font-weight: 200;
+	float: left;
+	font-size: 17px;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+
+}
+
+
+.main header .name:hover {
+	color: #DF5750;
+
+}
+
+
+.main header nav {
+	float: right;
+	height: inherit;
+
+}
+
+
+.main header nav ul {
+	margin: 0;
+
+}
+
+
+.main header nav li {
+	float: left;
+	margin-left: 20px;
+
+}
+
+
+.main section.page1 .page_container {
+	background: url('../images/main_bg.jpg');
+	background-position: 100% 50%;
+	background-size: cover;
+
+}
+
+
+.main section .page_container {
+	height: 595px;
+	text-align: center;
+
+}
+
+
+.main section.page2 .page_container .line, .main section.page3 .page_container .line, .main section.page4 .page_container .line {
+	display: inline-block;
+	width: 5px;
+	height: 70px;
+	margin-left: -0.5px;
+	border-left: 1px solid rgba(186, 186, 186, 1);
+
+}
+
+
+.main section.page2 .page_container h2.category, .main section.page3 .page_container h2.category, .main section.page4 .page_container h2.category {
+	font-family: 'Source Serif Pro', serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 17px;
+	letter-spacing: 2px;
+	color: #BABABA;
+
+}
+
+
+.main section.page2 .page_container {
+	position: relative;
+	overflow: hidden;
+
+}
+
+
+.main section.page2 .page_container .profile {
+	position: absolute;
+	left: 0;
+	width: 400px;
+	margin-left: 70px;
+
+}
+
+
+.main section.page2 .page_container .info {
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	top: 120px;
+	right: 70px;
+
+}
+
+
+.main section.page2 .page_container .info div {
+	position: relative;
+	padding: 2px 0;
+
+}
+
+
+.main section.page2 .page_container .info img {
+	width: 20px;
+	height: 20px;
+
+}
+
+
+.main section.page2 .page_container .info span {
+	position: relative;
+	top: -6px;
+	left: 3px;
+
+}
+
+
+.main section.page2 .page_container .intro {
+	width: 500px;
+	height: auto;
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	right: 400px;
+	bottom: 0;
+
+}
+
+
+.main section.page2 .page_container .intro h3 {
+	font-family: 'Source Serif Pro', serif;
+	color: #494949;
+	letter-spacing: 1px;
+
+}
+
+
+.main section.page2 .page_container .intro p {
+	margin-left: 20px;
+
+}
+
+
+.main section.page2 .page_container .skills {
+	display: inline-block;
+	position: absolute;
+	right: 70px;
+	bottom: 0;
+	width: 300px;
+	height: 250px;
+	margin: 0;
+	text-align: left;;
+
+}
+
+
+.main section.page2 .page_container .skills h3 {
+	font-family: 'Source Serif Pro', serif;
+	letter-spacing: 1px;
+	color: #494949;
+
+}
+
+
+.main section.page2 .page_container .skills ul {
+	padding: 0;
+	margin-left: 20px;
+
+}
+
+.main section.page2 .page_container .skills ul li{
+	margin-bottom: 8px;
+}
+
+
+.main section.page3 .page_container .project {
+	height: 420px;
+	padding: 20px 55px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 48px;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider {
+	height: inherit;
+	margin: 0;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list {
+	height: 400px;
+	width: 200px;
+	margin-right: 73px;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure {
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	opacity: 1;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.635s ease;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure img {
+	-webkit-transition-delay: 0.1S;
+	transition-delay: 0.1s;
+	backface-visibility: hidden;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure figcaption {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+	-webkit-transform: scale(0.5) translate(0%, -50%);
+	transform: scale(0.5) translate(0%, -50%);
+	-webkit-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	z-index: 1;
+	opacity: 0;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure figcaption h3 {
+	margin: 0;
+	padding-bottom: 15px;
+	font-size: 22px;
+	font-weight: 100;
+	color: #4F4F4F;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure figcaption .read-more {
+	border: 1px solid #333;
+	padding: 3px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #4F4F4F;
+	display: inline-block;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure figcaption .read-more:hover {
+	background-color: #4F4F4F;
+	color: #fff;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure:hover img {
+	-webkit-animation: figure 0.4s linear forwards;
+	animation: figure 0.4s linear forwards;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+
+}
+
+
+.main section.page3 .page_container .project .project_slider .slider_list figure:hover figcaption {
+	-webkit-transform: scale(1) translate(0, -50%);
+	transform: scale(1) translate(0, -50%);
+	opacity: 1;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+
+}
+
+
+@-webkit-keyframes figure {
+
+}
+
+
+@keyframes figure {
+
+}
+
+
+.main section.page3 .page_container .project .bx-controls-direction a.bx-prev {
+	position: absolute;
+	left: 0px;
+	top: 46%;
+	background: url('../images/slider-nav-prev.png') no-repeat;
+	background-size: 16px;
+	text-indent: -9999px;
+	display: block;
+	height: 29px;
+	width: 17px;
+
+}
+
+
+.main section.page3 .page_container .bx-controls-direction a.bx-next {
+	position: absolute;
+	right: 0;
+	top: 46%;
+	display: inline-block;
+	width: 17px;
+	height: 29px;
+	text-indent: -9999px;
+	background: url('../images/slider-nav-next.png') no-repeat 0 0;
+	background-size: 16px;
+
+}
 body {
   padding: 0;
   text-align: center;
@@ -129,6 +553,7 @@ a:hover {
 /* page2 - about */
 .main section.page2 .page_container{
 	position: relative;
+	overflow: hidden;
 
 }
 
@@ -136,7 +561,7 @@ a:hover {
 	position: absolute;
 	left: 0;
 	width: 400px;
-	margin-left: 60px;
+	margin-left: 70px;
 	/*-webkit-filter: grayscale(100%);
 	filter: gray;*/
 }
@@ -145,40 +570,44 @@ a:hover {
 	text-align: left;
 	display: inline-block;
 	position: absolute;
-	top: 182px;
-	right: 450px;
+	top: 120px;
+	right: 70px;
 }
 
 .main section.page2 .page_container .info div{
 	position: relative;
-	padding: 5px 0;
+	padding: 2px 0;
 }
 
 .main section.page2 .page_container .info img{
+	width: 20px;
+	height: 20px;;;
 }
 
 .main section.page2 .page_container .info span{
 	position: relative;
-	top: -8px;
-	left: 3px;
+	top: -6px;
+	left: 3px;;
 }
 
 .main section.page2 .page_container .intro{
 	width: 500px;
-	height: 300px;
+	height: auto;
 	text-align: left;
 	display: inline-block;
 	position: absolute;
-	left: 100px;
-	top: 182px;;
+	right: 400px;
+	bottom: 0;
 }
 
 .main section.page2 .page_container .intro h3{
 	font-family: 'Source Serif Pro', serif;
+	color: #494949;
 	letter-spacing: 1px;
 }
 
 .main section.page2 .page_container .intro p{
+	
 	margin-left: 20px;
 }
 
@@ -187,17 +616,24 @@ a:hover {
 	text-align: left;
 	display: inline-block;
 	position: absolute;
-	top: 350px;
-	right: 450px;
+	right: 70px;
 
-	border: 1px solid #000;
+	bottom: 0;
+	width: 300px;
+	height: 250px;
 }
 
 .main section.page2 .page_container .skills h3{
 	font-family: 'Source Serif Pro', serif;
 	letter-spacing: 1px;
+	color: #494949;
+
 }
 
+.main section.page2 .page_container .skills ul{
+	margin: 0;
+	margin-left: 20px;
+}
 /* page3 - project */
 .main section.page3 .page_container .project{
 	height: 420px;
@@ -342,6 +778,7 @@ a:hover {
 
 }
 
+
 /*body.disabled-onepage-scroll .onepage-wrapper  section {
   min-height: 100%;
   height: auto;
@@ -396,3 +833,11 @@ body, .onepage-wrapper, html {
 
 /* page4 - contact */
 
+
+
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
