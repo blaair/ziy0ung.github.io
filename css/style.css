@@ -269,9 +269,21 @@ a:hover {
 }
 
 .main section.page2 .page_container .skills ul li{
+
 	margin-bottom: 8px;
 }
 
+.main section.page2 .page_container .skills ul li span.lang{
+	float: left;
+}
+
+.main section.page2 .page_container .skills ul li span.circle{
+	float: left;
+  width: 20px;                              
+  height: 20px;                            
+  background: #15c;                           
+  border-radius: 50%;        
+}
 
 .main section.page3 .page_container .project {
 	height: 420px;
