@@ -1,7 +1,29 @@
-html {
-	margin: 0;
+body {
 	padding: 0;
-  height: 100%;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	position: relative;
+	margin: 0;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	color: #3B3A3A;
+
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	height: 100% !important;
+	padding: 0 70px;
+
+}
+
+
+ul, ol, li {
+	list-style: none;
+
 }
 
 
@@ -130,15 +152,6 @@ a:hover {
 
 }
 
-
-.main section.page1 .page_container {
-	background: url('../images/main_bg.jpg');
-	background-position: 100% 50%;
-	background-size: cover;
-
-}
-
-
 .main section .page_container {
 	height: 595px;
 	text-align: center;
@@ -168,6 +181,8 @@ a:hover {
 
 
 .main section.page2 .page_container {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 13.5px;
 	position: relative;
 	overflow: hidden;
 
@@ -278,7 +293,7 @@ a:hover {
 .main section.page2 .page_container .skills ul li span.circle{
   width: 12px;                              
   height: 12px;                            
-  background: #d0926ed1;                    
+  background: #d0926ea6;                    
   border-radius: 50%;        
   margin-right: 2px;
   float: left;
@@ -442,6 +457,7 @@ a:hover {
 	background-size: 16px;
 
 }
+
 body {
   padding: 0;
   text-align: center;
@@ -537,11 +553,6 @@ a:hover {
 	margin-left: 20px;
 }
 
-.main section.page1 .page_container{
-	background: url('../images/main_bg.jpg');
-	background-position: 100% 50%;
-	background-size: cover;
-}
 
 .main section .page_container{
 	height: 595px;
@@ -563,6 +574,23 @@ a:hover {
 	font-size: 17px;
 	letter-spacing: 2px;
 	color: #BABABA;
+}
+
+.main section.page1 .page_container{
+	background: url('../images/main_bg1.jpg');
+	background-position: 0% 30%;
+	background-size: cover;
+	text-align: center;
+}
+
+.main section.page1 .page_container h2{
+	display: inline-block;
+	position: relative;
+	top: 40%;
+	font-family: 'Source Serif Pro', serif;
+	color: #bc3b279e;
+	letter-spacing: 22px;
+	font-size: 50px;
 }
 
 /* page2 - about */
@@ -587,6 +615,7 @@ a:hover {
 	position: absolute;
 	top: 120px;
 	right: 70px;
+	width: 190px;
 }
 
 .main section.page2 .page_container .info div{
@@ -634,8 +663,8 @@ a:hover {
 	right: 70px;
 
 	bottom: 0;
-	width: 300px;
 	height: auto;
+	width: 250px;
 }
 
 .main section.page2 .page_container .skills h3{
@@ -649,7 +678,7 @@ a:hover {
 	margin-left: 20px;
 }
 
-/* page3 - project */
+ page3 - project 
 .main section.page3 .page_container .project{
 	height: 420px;
 	padding: 20px 55px;
@@ -793,66 +822,3 @@ a:hover {
 
 }
 
-
-/*body.disabled-onepage-scroll .onepage-wrapper  section {
-  min-height: 100%;
-  height: auto;
-}
-
-body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
-  padding: 20px;
-  margin-top: 150px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body.disabled-onepage-scroll  section .page_container h1{
-  text-align: center;
-  font-size: 50px;
-}
-body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
-  text-align: center;
-  width: 100%;
-}
-
-body.disabled-onepage-scroll .main section.page1 > img {
-  position: absolute;
-  width: 80%;
-  left: 10%;
-}
-
-body.disabled-onepage-scroll .main section > img {
-  position: relative;
-  max-width: 80%;
-  bottom: 0;
-}
-body.disabled-onepage-scroll code {
-  width: 95%;
-  margin: 0 auto 25px;
-  float: none;
-  overflow: hidden;
-}
-
-body.disabled-onepage-scroll .main section.page3 .page_container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  right: 0;
-}
-
-body, .onepage-wrapper, html {
-	height: 100%;
-}
-*/
-
-/* page4 - contact */
-
-
-
-html {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-
-}
