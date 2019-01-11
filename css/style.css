@@ -380,7 +380,6 @@ a:hover {
 	font-size: 20px;
 	font-weight: 100;
 	color: #4F4F4F;
-
 }
 
 
@@ -391,7 +390,6 @@ a:hover {
 	text-decoration: none;
 	color: #4F4F4F;
 	display: inline-block;
-
 }
 
 
@@ -456,59 +454,6 @@ a:hover {
 	background: url('../images/slider-nav-next.png') no-repeat 0 0;
 	background-size: 16px;
 
-}
-
-body {
-  padding: 0;
-  text-align: center;
-  font-family: 'Questrial', sans-serif;
-  position: relative;
-  margin: 0;
-  height: 100%;
-  -webkit-font-smoothing: antialiased;
-  font-size: 14px;
-  color: #3B3A3A;
-}
-
-.wrapper {
-	margin: 0 auto; 
-	overflow: hidden;
-	height: 100% !important;
-	padding: 0 70px;
-}
-
-ul, ol, li {
-	list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:link {
-	text-decoration: none;
-	color: inherit;
-}
-
-a:visited {
-	color: inherit;
-	text-decoration: none;
-}
-
-a:active {
-	text-decoration: none;
-	color: inherit;
-}
-
-a:hover {
-	text-decoration: none;
-	color: inherit;
-}
-
-.clearfix::after{
-	content: '';
-	display: block;
-	clear: both;
 }
 
 .main {
